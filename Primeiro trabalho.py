@@ -13,7 +13,7 @@ if molho_tare == "sim":
 else:
     print("Pedido sem molho tare adicionado")
 
-print("Passo 4: Perguntar ao cliente se é débito ou crédito")
+print("Passo 4: Perguntar ao cliente se é débito, crédito ou dinheiro")
 
 pergunta_pagamento = input("O pagamento vai ser no débito, crédito ou dinheiro? ").lower()
 if pergunta_pagamento == "débito":
@@ -22,4 +22,5 @@ elif pergunta_pagamento == "crédito":
     print("Pagamento no crédito realizado, tenha uma boa noite.")
 else:
     print("Pagamento realizado no dinheiro, tenha uma boa noite.")
+
 
